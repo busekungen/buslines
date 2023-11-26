@@ -1,0 +1,27 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.line {
+    margin: 10px 0;
+}
+
+.line h2 {
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-family: 'Verdana', sans-serif;
+    transition: color 0.3s;
+}
+
+.line h2:hover {
+    color: blue;
+}
+
+.stopsList {
+    display: none;
+}
+
+.stopsList.active {
+    display: block;
+}
